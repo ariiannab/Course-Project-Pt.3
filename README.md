@@ -2,8 +2,6 @@
 This respiratory is to provide the file for the program project in CIS-18A
 
 
-           
-// Import necessary libraries for file writing, date/time operations, list management, and GUI input/output
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDate;
@@ -13,7 +11,6 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
 
-// Define a class to represent a product with a name and price
 class Product {
     String name;
     double price;
@@ -25,7 +22,6 @@ class Product {
     }
 }
 
-// Define a class to represent an appointment with date and time
 class Appointment {
     LocalDate date;
     LocalTime time;
@@ -37,7 +33,6 @@ class Appointment {
     }
 }
 
-// Main class to manage the cafe ordering system
 public class CafeOrder {
     public static void main(String[] args) {
         // Create a list to store available products with their names and prices
